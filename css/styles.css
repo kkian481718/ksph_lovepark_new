@@ -80,6 +80,65 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+/* chat */
+.chat {
+  padding: 5px 17px;
+  float: left;
+  clear: both;
+  margin: 0;
+  font-weight: 400;
+  font-size: .9em
+}
+
+.chat a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.chat.top {
+  margin-bottom: 0
+}
+
+.chat.bottom {
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+.chat.left.top {
+  border-radius: 15px 15px 15px 0
+}
+
+.chat.left.bottom {
+  border-radius: 0 15px 15px 15px
+}
+
+.chat.left.top.bottom {
+  border-radius: 15px 15px 15px 15px
+}
+
+.chat.left {
+  background: #6c757d;
+  color: #fff
+}
+
+.chat.right {
+  background: #e9e9e9;
+  color: #000;
+  float: right
+}
+
+.chat.right.top {
+  border-radius: 15px 15px 0 15px
+}
+
+.chat.right.bottom {
+  border-radius: 15px 0 15px 15px
+}
+
+.chat.right.top.bottom {
+  border-radius: 15px 15px 15px 15px
+}
+
 /* fonts class */
 .noto-serif-tc-light {
   font-family: "Noto Serif TC", serif;
@@ -12819,134 +12878,102 @@ header.masthead .h1 {
   }
 }
 
-#portfolio .container-fluid,
-#portfolio .container-sm,
-#portfolio .container-md,
-#portfolio .container-lg,
-#portfolio .container-xl,
-#portfolio .container-xxl {
-  max-width: 1920px;
+#portfolio .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#portfolio .container-fluid .portfolio-box,
-#portfolio .container-sm .portfolio-box,
-#portfolio .container-md .portfolio-box,
-#portfolio .container-lg .portfolio-box,
-#portfolio .container-xl .portfolio-box,
-#portfolio .container-xxl .portfolio-box {
+#portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
+  margin: 0 auto;
 }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption,
-#portfolio .container-md .portfolio-box .portfolio-box-caption,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption,
-#portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
   opacity: 0;
-  color: #fff;
-  background: rgba(145, 167, 208, 0.9);
-  transition: opacity 0.25s ease;
-  text-align: center;
+  transition: opacity ease-in-out 0.25s;
 }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-md .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category,
-#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-  font-family: "Zen Maru Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
 }
 
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name,
-#portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
-  font-family: "Noto Serif TC";
-  font-weight: 600;
-  font-size: 2rem;
-}
-
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-md .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
-#portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
 
-/* chat */
-.chat {
-  padding: 5px 17px;
-  float: left;
-  clear: both;
-  margin: 0;
-  font-weight: 400;
-  font-size: .9em
+#portfolio .portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
 }
 
-.chat a {
-  color: #fff;
-  text-decoration: underline
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
-.chat.top {
-  margin-bottom: 0
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.chat.bottom {
-  margin-top: 1px;
-  margin-bottom: 15px;
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
 }
 
-.chat.left.top {
-  border-radius: 15px 15px 15px 0
+.portfolio-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
 }
 
-.chat.left.bottom {
-  border-radius: 0 15px 15px 15px
+.portfolio-modal .modal-content h2,
+.portfolio-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
-.chat.left.top.bottom {
-  border-radius: 15px 15px 15px 15px
+.portfolio-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.chat.left {
-  background: #6c757d;
-  color: #fff
+.portfolio-modal .modal-content p {
+  margin-bottom: 2rem;
 }
 
-.chat.right {
-  background: #e9e9e9;
-  color: #000;
-  float: right
+.portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
 }
 
-.chat.right.top {
-  border-radius: 15px 15px 0 15px
+.portfolio-modal .modal-content img {
+  margin-bottom: 2rem;
 }
 
-.chat.right.bottom {
-  border-radius: 15px 0 15px 15px
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
 }
 
-.chat.right.top.bottom {
-  border-radius: 15px 15px 15px 15px
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
 }
