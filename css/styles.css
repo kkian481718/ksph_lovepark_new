@@ -12891,3 +12891,62 @@ header.masthead .h1 {
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/* chat */
+.chat {
+  padding: 5px 17px;
+  float: left;
+  clear: both;
+  margin: 0;
+  font-weight: 400;
+  font-size: .9em
+}
+
+.chat a {
+  color: #fff;
+  text-decoration: underline
+}
+
+.chat.top {
+  margin-bottom: 0
+}
+
+.chat.bottom {
+  margin-top: 1px;
+  margin-bottom: 15px;
+}
+
+.chat.left.top {
+  border-radius: 15px 15px 15px 0
+}
+
+.chat.left.bottom {
+  border-radius: 0 15px 15px 15px
+}
+
+.chat.left.top.bottom {
+  border-radius: 15px 15px 15px 15px
+}
+
+.chat.left {
+  background: #6c757d;
+  color: #fff
+}
+
+.chat.right {
+  background: #e9e9e9;
+  color: #000;
+  float: right
+}
+
+.chat.right.top {
+  border-radius: 15px 15px 0 15px
+}
+
+.chat.right.bottom {
+  border-radius: 15px 0 15px 15px
+}
+
+.chat.right.top.bottom {
+  border-radius: 15px 15px 15px 15px
+}
