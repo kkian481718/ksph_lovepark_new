@@ -532,7 +532,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  -webkit-appearance: button; /* 非標準屬性 */
+  appearance: button; /* 標準屬性 */
 }
 
 button:not(:disabled),
@@ -594,6 +595,7 @@ legend+* {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -615,6 +617,7 @@ legend+* {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
+  appearance: button;
 }
 
 output {
@@ -12840,7 +12843,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

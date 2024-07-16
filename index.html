@@ -403,7 +403,7 @@
                     <hr class="divider divider-light" />
                     <div>
                         <p class="text-white">
-                            我國現行的判定準則如下：<br>
+                            我國現行的判定準則如下：<br><br>
                             <strong>
                                 「情緒行為障礙，指<u>長期情緒或行為表現顯著異常，嚴重影響學校適應者</u>；其障礙非因智能、感官或健康等因素直接造成之結果。前項情緒行為障礙之症狀，包括精神性疾患、情感性疾患、畏懼性疾患、焦慮性疾患、注意力缺陷過動症、或有其他持續性之情緒或行為問題者。」<br>
                             </strong>
@@ -411,12 +411,18 @@
                         <p class="text-white">
                             第一項所定情緒行為障礙，其鑑定基準依下列各款規定：
                             <br><br>
-                            一、<br>
-                            情緒或行為表現顯著異於其同年齡或社會文化之常態者，得參考精神科醫師之診斷認定之。<br>
-                            二、<br>
-                            除學校外，在家庭、社區、社會或任一情境中顯現適應困難。<br>
-                            三、<br>
-                            在學業、社會、人際、生活等適應有顯著困難，且經評估後確定一般教育所提供之介入，仍難獲得有效改善。
+                            <div class="row text-white noto-serif-tc-bold">
+                                <p class="col-1">一、</p>
+                                <p class="col">情緒或行為表現顯著異於其同年齡或社會文化之常態者，得參考精神科醫師之診斷認定之。</p>
+                            </div>
+                            <div class="row text-white noto-serif-tc-bold">
+                                <p class="col-1">二、</p>
+                                <p class="col">除學校外，在家庭、社區、社會或任一情境中顯現適應困難。</p>
+                            </div>
+                            <div class="row text-white noto-serif-tc-bold">
+                                <p class="col-1">三、</p>
+                                <p class="col">在學業、社會、人際、生活等適應有顯著困難，且經評估後確定一般教育所提供之介入，仍難獲得有效改善。</p>
+                            </div>
                         </p>
                     </div>
                 </div>
@@ -454,8 +460,7 @@
                             <input class="form-control" id="email" type="email" placeholder="name@example.com"
                                 data-sb-validations="required,email" />
                             <label for="email">Email</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">請填入您的 Email</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email 格式不正確</div>
+                            <div class="invalid-feedback email" data-sb-feedback="email:required">請填入您的 Email</div>
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
@@ -472,40 +477,23 @@
                             <div class="invalid-feedback" data-sb-feedback="message:required">請填入訊息</div>
                         </div>
 
-                        <!-- Submit success message-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a
-                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
-                        </div>
-
-                        <!-- Submit error message-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">發生了一點小問題，訊息沒被送出</div>
-                        </div>
-
                         <!-- Submit Button-->
-                        <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton"
-                                type="submit">送出</button></div>
+                        <div class="d-grid"><button class="btn btn-primary btn-xl" id="submitButton" type="submit">送出</button></div>
                     </form>
                 </div>
             </div>
-            <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+            <div class="mb-3 text-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2189.787028504272!2d120.3233404894357!3d22.625132431666845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04bc508fdbfb%3A0xd35e0196aaae4923!2z6auY6ZuE5biC56uL5Yex5peL6Yar6Zmi!5e0!3m2!1szh-TW!2stw!4v1721039379697!5m2!1szh-TW!2stw"
-                    height="400" style="border:0;" allowfullscreen="true" loading="lazy"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="true" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="row justify-content-around">
-                <div class="col-lg-5 col-md-12 bg-primary rounded-4 p-3 text-white">
+            <div class="row justify-content-around text-center text-primary">
+                <div class="col-lg-5 col-md-12 rounded-2 p-3 gy-lg-0 gy-2">
                     <i class="bi-phone fs-2"></i>
                     <div>07-7513171 #2013</div>
                 </div>
-                <div class="col-lg-5 col-md-12 gy-lg-0 gy-2 bg-primary rounded-4 p-4 text-white">
+                <div class="col-lg-5 col-md-12 rounded-2 p-3 gy-lg-0 gy-2">
                     <i class="bi-envelope fs-2"></i>
                     <div>lovegarden.2013@gmail.com</div>
                 </div>
@@ -949,6 +937,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- smtp JS-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- sweet alert 2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
@@ -958,6 +950,7 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
 </body>
 
 </html>
