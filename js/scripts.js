@@ -69,9 +69,9 @@ function sendEmail() {
     訊息： ${Message.value}`;
   
   Email.send({
-    SecureToken: "977053ee-6491-4e2e-884e-0932e6357838",
-    To: "miffyptmail@gmail.com",
-    From: "miffyptmail@gmail.com",
+    SecureToken: "aaa37bc4-becc-4cbe-9b6a-6c8c45b02f63",
+    To: "lovegarden.2013@gmail.com",
+    From: "lovegarden.2013@gmail.com",
     Subject: "【愛心園官網】有人傳送了訊息！",
     Body: bodyMessage,
   }).then((message) => {
