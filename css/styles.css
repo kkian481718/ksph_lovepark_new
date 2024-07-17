@@ -532,8 +532,10 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button; /* 非標準屬性 */
-  appearance: button; /* 標準屬性 */
+  -webkit-appearance: button;
+  /* 非標準屬性 */
+  appearance: button;
+  /* 標準屬性 */
 }
 
 button:not(:disabled),
@@ -9262,6 +9264,11 @@ fieldset:disabled .btn {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-pink-special {
+  --bs-bg-opacity: 1;
+  background-color: #FFDEF7 !important;
 }
 
 .bg-dark {
