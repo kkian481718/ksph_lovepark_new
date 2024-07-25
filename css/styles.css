@@ -389,7 +389,8 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-decoration: none;
 }
 
 a:hover {
@@ -9266,9 +9267,9 @@ fieldset:disabled .btn {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-pink-special {
+.bg-chat {
   --bs-bg-opacity: 1;
-  background-color: #FFDEF7 !important;
+  background-color: #6D8AC1 !important;
 }
 
 .bg-dark {
