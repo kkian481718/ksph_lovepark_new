@@ -1,11 +1,10 @@
-name: Deploy Vue to GitHub Pages
+﻿name: Deploy Vue to GitHub Pages
 
 on:
   push:
     branches:
       - main
-    paths:
-      - 'ksph_lovepark_vue/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
