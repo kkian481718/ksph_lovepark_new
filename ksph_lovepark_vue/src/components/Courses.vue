@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <!-- 情緒教育課程 -->
-                <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 1-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -28,7 +28,7 @@
                 </div>
 
                 <!-- 社交技巧課程 -->
-                <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 2-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -47,7 +47,7 @@
                 </div>
 
                 <!-- 學習策略課程 -->
-                <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 3-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -66,7 +66,7 @@
                 </div>
 
                 <!-- 生活管理課程 -->
-                <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 4-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
@@ -85,7 +85,7 @@
                 </div>
 
                 <!-- 職業教育課程 -->
-                <div class="col-lg-3 col-sm-6 mb-4 mb-sm-0">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 5-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
@@ -104,7 +104,7 @@
                 </div>
 
                 <!-- 動作機能訓練 -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 6-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
@@ -123,7 +123,7 @@
                 </div>
 
                 <!-- 高中職原校輔導 -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 7-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
@@ -142,7 +142,7 @@
                 </div>
 
                 <!-- IEP -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 8-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
@@ -161,7 +161,7 @@
                 </div>
 
                 <!-- 個案討論會：每週 -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 9-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
@@ -180,7 +180,7 @@
                 </div>
 
                 <!-- 個案討論會：每月 -->
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-6 mb-4">
                     <!-- Portfolio item 10-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal10">
@@ -297,7 +297,7 @@
                                 「情緒行為障礙，指<u>長期情緒或行為表現顯著異常，嚴重影響學校適應者</u>；其障礙非因智能、感官或健康等因素直接造成之結果。前項情緒行為障礙之症狀，包括精神性疾患、情感性疾患、畏懼性疾患、焦慮性疾患、注意力缺陷過動症、或有其他持續性之情緒或行為問題者。」<br>
                             </strong>
                         </p>
-                        <p class="text-white">
+                        <div class="text-white">
                             第一項所定情緒行為障礙，其鑑定基準依下列各款規定：
                             <br><br>
                         <div class="row text-white noto-serif-tc-bold">
@@ -312,7 +312,7 @@
                             <p class="col-1">三、</p>
                             <p class="col">在學業、社會、人際、生活等適應有顯著困難，且經評估後確定一般教育所提供之介入，仍難獲得有效改善。</p>
                         </div>
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

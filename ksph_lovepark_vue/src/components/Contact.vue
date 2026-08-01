@@ -34,7 +34,7 @@
   <footer class="bg-light py-5">
       <div class="container px-4 px-lg-5">
           <p class="small text-center">本園地址：高雄市苓雅區凱旋二路130號</p>
-          <div class="small text-center text-muted">Copyright &copy; 2002-2024 | Miffy Studio & Love Garden Team (Powered by Vue 3)</div>
+          <div class="small text-center text-muted">Copyright &copy; 2002-{{ new Date().getFullYear() }} | Miffy Studio & Love Garden Team (Powered by Vue 3)</div>
       </div>
   </footer>
 </template>
