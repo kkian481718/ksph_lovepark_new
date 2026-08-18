@@ -56,7 +56,7 @@
     padding: 12px 28px;
     border-radius: 50px;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.35rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
     animation: slideDown 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     opacity: 0; /* from animation */
@@ -69,7 +69,7 @@
 
 .badge-desc {
     opacity: 0.8;
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     margin-left: 5px;
 }
 
