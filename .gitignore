@@ -1,0 +1,8 @@
+node_modules/
+dist/
+ksph_lovepark_vue/dist/
+ksph_lovepark_vue/node_modules/
+.env
+.env.*
+*.log
+.DS_Store
