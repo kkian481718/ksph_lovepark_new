@@ -3,6 +3,10 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue({
+    template: {
+      transformAssetUrls: false,
+    },
+  })],
   base: '/ksph_lovepark_new/',
 })

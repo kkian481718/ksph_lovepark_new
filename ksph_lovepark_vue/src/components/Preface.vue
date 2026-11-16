@@ -22,7 +22,7 @@
                   </h5>
               </div>
               <div class="col-lg-1 col-md-12 gy-3 gy-lg-0 align-self-end">
-                  <img src="/assets/img/preface.png" height="300" width="300" alt="愛心園日常">
+                  <img src="assets/img/preface.png" height="300" width="300" alt="愛心園日常">
               </div>
               <a class="btn btn-light btn-xl gy-3" href="#history">認識愛心園</a>
           </div>

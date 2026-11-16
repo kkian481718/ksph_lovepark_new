@@ -32,7 +32,7 @@ ksph_lovepark_new/
 │   │   └── main.js          # Vue 入口
 │   ├── package.json
 │   └── vite.config.js
-└── index.html               # 專案靜態導覽與備用入口
+└── ksph_lovepark_vue/public/    # 靜態資源（圖片、css、js）
 ```
 
 ---

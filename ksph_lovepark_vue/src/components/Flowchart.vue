@@ -28,7 +28,7 @@ const viewMode = ref('interactive'); // 'interactive' | 'image'
       <!-- Static Image Mode -->
       <div v-if="viewMode === 'image'" class="text-center animate-fade-in fade-in-section">
         <div class="bg-white p-3 rounded-4 shadow-sm d-inline-block">
-          <img class="img-fluid rounded" src="/assets/img/process.png" alt="入班流程圖完整原圖">
+          <img class="img-fluid rounded" src="assets/img/process.png" alt="入班流程圖完整原圖">
         </div>
       </div>
 

@@ -16,7 +16,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal1" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -35,7 +35,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal2" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -54,7 +54,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal3" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -73,7 +73,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal4" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -92,7 +92,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal5" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -111,7 +111,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/6.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal6" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -130,7 +130,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/7.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/7.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal7" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -149,7 +149,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/8.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/8.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal8" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -168,7 +168,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/9.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/9.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal9" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -187,7 +187,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="/assets/img/portfolio/10.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/10.jpg" alt="..." />
                         </a>
                         <a href="#portfolioModal10" data-bs-toggle="modal" class="text-dark">
                             <div class="portfolio-caption">
@@ -229,31 +229,31 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/assets/img/environment_pic/environment_1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_2.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_2.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_3.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_3.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_4.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_4.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_5.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_5.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_6.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_6.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_7.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_7.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_8.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_8.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="/assets/img/environment_pic/environment_9.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/environment_pic/environment_9.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -327,7 +327,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -351,7 +351,7 @@
                                 </ul>
 
                                 <img class="col img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_1.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_1.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -369,7 +369,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -396,7 +396,7 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_2.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_2.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -414,7 +414,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -440,9 +440,9 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_3.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_3.jpg" alt="..." />
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_3a.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_3a.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -460,7 +460,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -486,9 +486,9 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_4.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_4.jpg" alt="..." />
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_4a.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_4a.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -506,7 +506,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -532,9 +532,9 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_5.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_5.jpg" alt="..." />
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_5a.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_5a.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -552,7 +552,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -578,9 +578,9 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_6.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_6.jpg" alt="..." />
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_6a.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_6a.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -598,7 +598,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -624,7 +624,7 @@
                                 </ul>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_82.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_82.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -642,7 +642,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -658,7 +658,7 @@
                                 </p>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_9.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_9.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -676,7 +676,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -692,7 +692,7 @@
                                 </p>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_10.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_10.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
@@ -710,7 +710,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="/assets/img/close-icon.svg"
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
                         alt="Close modal" />
                 </div>
                 <div class="container">
@@ -726,7 +726,7 @@
                                 </p>
 
                                 <img class="img-fluid d-block mx-auto"
-                                    src="/assets/img/portfolio/course/course_right_11.jpg" alt="..." />
+                                    src="assets/img/portfolio/course/course_right_11.jpg" alt="..." />
 
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
